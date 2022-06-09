@@ -8,5 +8,12 @@ pipeline{
              '''
 	}
      }
+	stage('test'){
+	     steps {
+	      sh '''
+		 echo 'this is testing stage please make success'
+		'''
+	}
+     }
   }
 }
