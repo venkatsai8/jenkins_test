@@ -1,7 +1,7 @@
 pipeline{
    agent any 
    stages {
-       stage {
+       stage('nat') {
 	 steps {
 	    sh 'hello-world'
 	}
