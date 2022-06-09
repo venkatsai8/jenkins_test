@@ -1,9 +1,5 @@
 pipeline{
-   agent { docker {
-		image 'ubuntu:latest' 
-                  args '-u root'
-}
-}
+    agent any 
    stages {
        stage('nat') {
 	 steps {
